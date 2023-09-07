@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
+<style>
+    .academic{
+        display: flex;
+        gap:120px;
+    }
+</style>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -33,28 +39,31 @@
         </div>
       </nav>
       <br>
+      <div class="container">
     <h2 class="navbar-brand"><b>About Me</b></h2>
     <p>Enthusiastic Computer Science Engineering student looking to work in an 
         organisation where I can refine my skill
         and expand my knowledge for the dynamic growth of the organisation. 
         Motivated to learn more and grow.</p><br>
     <h2 class="navbar-brand"><b>Academic Projects</b></h2>
+    <div class="academic">
     <div class="card" style="width: 18rem;">
-        <img src="" class="card-img-top" alt="Resume Screening">
+        <img src="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/12/resume-screening.png?resize=881%2C453&ssl=1" class="card-img-top" alt="Resume Screening">
         <div class="card-body">
           <h6 class="card-title">Resume Screening</h6>
-          <p class="card-text">Screening the resume that has been uploaded and shortlisting the resumes that satisfy the condition given (example : The resumes scoring 10% above in data science would be shortlisted). The resumes that passes the condition will get an automatic mail of an technical aptitude.</p>
-          <a href="#" class="btn btn-primary">Check Out</a>
+          <p class="card-text">Screening the resume that has been uploaded and shortlisting the resumes that satisfy the condition given.</p>
+          <a href="https://github.com/im-aadhirapr/resume-screener.git" class="btn btn-primary">Check Out</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="https://media.licdn.com/dms/image/D562DAQFv48XjfRk3dg/profile-treasury-image-shrink_800_800/0/1691240209556?e=1694707200&v=beta&t=rN1H05avOgmZUNCQKvjSsYKdnnRfNFHkSBwqdyZocM8" class="card-img-top" alt="Ai Virtual Painting">
+        <img src="https://media.licdn.com/dms/image/D562DAQFv48XjfRk3dg/profile-treasury-image-shrink_800_800/0/1691240209556?e=1694707200&v=beta&t=rN1H05avOgmZUNCQKvjSsYKdnnRfNFHkSBwqdyZocM8" class="card-img-top" height="145" alt="Ai Virtual Painting">
         <div class="card-body">
           <h6 class="card-title">Ai Virtual Painting</h6>
           <p class="card-text">An application that enables one to virtually paint in the air using their fingers. It is developed in python using Open Cv and MediaPipe</p>
-          <a href="#" class="btn btn-primary">Check Out</a>
+          <a href="https://github.com/im-aadhirapr/ai-virtual-painting.git" class="btn btn-primary">Check Out</a>
         </div>
-      </div><br>
+      </div>
+    </div><br>
     <h2 class="navbar-brand"><b>Education</b></h2>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
@@ -74,7 +83,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <br>
+      <br><br>
       <h2 class="navbar-brand"><b>Skills</b></h2>
       <ul class="list-group">
         <li class="list-group-item">C</li>
@@ -85,5 +94,6 @@
         <li class="list-group-item">MySQL</li>
         <li class="list-group-item">Git</li>
       </ul>
+    </div>
 </body>
 </html>
